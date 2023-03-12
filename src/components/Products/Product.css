@@ -1,0 +1,59 @@
+.sideNav_text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    box-shadow: 2px 2px 5px #ff6b81;
+    width: 200px;
+    margin-top: 1rem;
+}
+.sideNav_text a{ 
+    display: inline-block;
+    width: 150px;
+    padding: 0.5rem;
+    text-decoration:none;
+    color: #808080;
+}
+
+.mainSection{ 
+    position: absolute;
+    top: 0;  
+    left: 25%;
+    display: flex;
+    justify-content: space-between  ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.itemProduct{ 
+    box-shadow: 2px 2px 8px blue;
+    padding: 1rem;
+    margin: 1rem;
+    position: relative;
+}
+.itemImage{ 
+    width: 300px;
+}
+.buttonBuyNow{ 
+    position: absolute;
+    bottom: 8%;
+    right: 22%;
+    cursor: pointer;
+}
+.buttonAddcard{ 
+    position: absolute;
+    bottom: 8%;
+    right: 5%;
+    cursor: pointer;
+}
+.rating{
+    display: inline-block;
+    padding: 0.5rem 0.7rem;
+    border-radius: 1rem;
+}
+.good{
+    box-shadow: 2px 2px 5px green;
+    background-color: yellowgreen;
+}
+.poor{
+    box-shadow: 2px 2px 5px red;
+    background-color: tomato;
+}

@@ -1,0 +1,81 @@
+.navbarStyle {
+    background-color: #fff;
+    box-shadow: 2px 3px 15px #e84393;
+    padding-top: 0.5rem;
+}
+.inputBox {
+    border: none;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    color: palevioletred;
+    word-spacing: 1.2px;
+}
+.inputBox:focus{
+    outline: none;
+    color: green;
+}
+.searchBox {
+    box-shadow: 2px 1px 5px #e84393;
+    padding: 0.7rem 3rem;
+    border-radius: 10px;
+}
+.NavbarText{
+    font-size: 1rem;
+    line-height: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.listItem{ 
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+.listItem:hover{
+    color: #e84393;
+    cursor: pointer;
+    text-shadow: 1px 3px 8px #e84393;
+}
+.downloadApp, .supplier{ 
+    transition: all 0.5s ease;
+    box-shadow: 1px 2px 5px;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.downloadApp:hover, .supplier:hover{ 
+    color: #e84393;
+    text-shadow: 1px 3px 8px #e84393;
+}
+.navbarDownload div a{
+    text-decoration: none;
+    color: #e84393;
+}
+.userDetails{
+    margin-top: 10px;
+    padding: 0.2rem 0.8rem;
+    box-shadow: 1px 2px 5px ;
+    border-radius: 10px;
+    position: relative;
+}
+.cgprofile, .cardShopping{
+    transition: 0.5s ease;
+}
+.profile a, .cardShopping a{
+    text-decoration: none;
+    color:#e84393;
+}
+.cgprofile:hover, .cardShopping:hover { 
+    color: #e84393;
+    text-shadow: 1px 3px 8px #e84393;
+}
+.profileDetails{ 
+    position: absolute;
+    top: 10;
+    left: 0;
+    border: 1px solid #e84393;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+    padding: 1rem;
+    box-shadow: 2px 1px 6px #e84393;
+    border-radius: 10px;
+    display: none;
+}

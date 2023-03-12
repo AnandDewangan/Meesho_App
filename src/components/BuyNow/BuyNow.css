@@ -1,0 +1,7 @@
+.buyBackground{ 
+    height: 100vh;
+    background-image: url(../../Images/buyBackground.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
