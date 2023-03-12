@@ -104,7 +104,7 @@ export default function () {
                               color: "#535c68",
                             }}
                           >
-                            {item.price}
+                            $ {item.price}
                           </h3>
                           {item.rating.rate > 3 ? (
                             <div>
